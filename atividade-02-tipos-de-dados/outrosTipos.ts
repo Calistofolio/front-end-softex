@@ -11,7 +11,7 @@ console.log(variavelNull == null)
 console.log(variavelUndefined == undefined)
 
 //Questão 5
-type Objeto ={
+type Objeto1 ={
     nome?: undefined;
 }
 
