@@ -70,7 +70,13 @@ class Post {
     } else {
       this._numberOfLikes -= 1;
     }
+    console.log(this._isLiked);
+
+    const postContainer = document.getElementById(this._id);
+    const btnLike = postContainer?.querySelector("#btnLike");
   }
+
+  toHtml(){}
 }
 
 const posts: Post[] = [];

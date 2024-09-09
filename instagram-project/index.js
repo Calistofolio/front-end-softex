@@ -73,7 +73,11 @@ var Post = /** @class */ (function () {
         else {
             this._numberOfLikes -= 1;
         }
+        console.log(this._isLiked);
+        var postContainer = document.getElementById(this._id);
+        var btnLike = postContainer === null || postContainer === void 0 ? void 0 : postContainer.querySelector("#btnLike");
     };
+    Post.prototype.toHtml = function () { };
     return Post;
 }());
 var posts = [];
