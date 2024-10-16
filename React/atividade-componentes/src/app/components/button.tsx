@@ -21,6 +21,7 @@ export function Button(){
         <div>
             <form onSubmit={submitHandler}>
                 <input type="text" className="border border-black rounded" name="" id="buttonContent" />
+                <br />
                 <button type="button" onClick={buttonChangeHandler} id="change-button-name" className="bg-purple-500 p-3 rounded">{buttonContent}</button>
             </form>
         </div>

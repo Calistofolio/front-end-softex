@@ -6,12 +6,11 @@ import { ItemList } from "./components/itemList";
 import { Paragraph } from "./components/paragraph";
 import { Square } from "./components/square";
 import { Title } from "./components/title";
-import { useState } from "react";
 
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Square></Square>
       <Title></Title>
       <Button></Button>
